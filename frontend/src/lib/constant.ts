@@ -120,15 +120,15 @@ export const specializations = [
 
     export const faqs = [
     {
-      question: "How much does a doctor visit with MediCare+ cost?",
-      answer: "With insurance, you pay your copay based on your plan. We accept most plans, including Medicare. Without insurance, online doctor visits are $129. You can become a MediCare+ member and pay $44/visit. Membership is $55 for three months and $180 for a yearly membership."
+      question: "How much does a doctor visit with Cureline+ cost?",
+      answer: "With insurance, you pay your copay based on your plan. We accept most plans, including Cureline. Without insurance, online doctor visits are $129. You can become a Cureline+ member and pay $44/visit. Membership is $55 for three months and $180 for a yearly membership."
     },
     {
       question: "Do you accept health insurance?",
-      answer: "Yes, we accept most major health insurance plans including Medicare, BlueCross BlueShield, Aetna, United Healthcare, Cigna, Humana, and many others. We also accept FSA and HSA payments."
+      answer: "Yes, we accept most major health insurance plans including Cureline, BlueCross BlueShield, Aetna, United Healthcare, Cigna, Humana, and many others. We also accept FSA and HSA payments."
     },
     {
-      question: "What conditions can MediCare+ doctors treat?",
+      question: "What conditions can Cureline+ doctors treat?",
       answer: "Our doctors can treat a wide range of conditions including cold and flu symptoms, allergies, skin conditions, mental health concerns, chronic condition management, and much more through virtual consultations."
     },
     {
@@ -146,11 +146,11 @@ export const specializations = [
   export const contactInfo = [
   {
     icon: Phone,
-    text: "1-888-MEDICARE (1-888-633-4227)",
+    text: "Cureline (8545056990)",
   },
   {
     icon: Mail,
-    text: "support@medicare-plus.com",
+    text: "vivek132121@gmail.com",
   },
   {
     icon: MapPin,
@@ -193,10 +193,8 @@ export const specializations = [
 
 
   export const socials = [
-  { name: "twitter", icon: Twitter, url: "https://twitter.com/medicare-plus" },
-  { name: "facebook", icon: Facebook, url: "https://facebook.com/medicare-plus" },
-  { name: "linkedin", icon: Linkedin, url: "https://linkedin.com/company/medicare-plus" },
-  { name: "instagram", icon: Instagram, url: "https://instagram.com/medicare-plus"},
+  { name: "linkedin", icon: Linkedin, url: "www.linkedin.com/in/vivek-kumar-24ab832a2" },
+  { name: "instagram", icon: Instagram, url: "https://instagram.com/Cureline-plus"},
 ]
 
 

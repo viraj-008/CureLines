@@ -1,8 +1,8 @@
 import AuthForm from "@/components/auth/AuthForm";
 
 export const metadata = {
-  title: 'Patient Login - MediCare+',
-  description: 'Sign in to your MediCare+ account to access healthcare consultations.',
+  title: 'Patient Login - Cureline+',
+  description: 'Sign in to your Cureline+ account to access healthcare consultations.',
 };
 
 export default function PatientLoginPage() {

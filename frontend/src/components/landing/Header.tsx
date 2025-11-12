@@ -12,6 +12,7 @@ import { usePathname, useRouter } from "next/navigation";
 import React from "react";
 import { Button } from "../ui/button";
 import { Badge } from "../ui/badge";
+import Image from "next/image";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -79,12 +80,17 @@ const Header: React.FC<HeaderProps> = ({ showDashboardNav = false }) => {
         {/* Left side -> logo  + navigation */}
         <div className="flex items-center space-x-8">
           <Link href="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center">
-              <Stethoscope className="w-5 h-5 text-white" />
-            </div>
+           
 
             <div className="text-2xl font-bold bg-gradient-to-br from-blue-600 to-blue-800  bg-clip-text text-transparent">
-              MediCare+
+              <Image
+      src="/cureline.png"    
+      alt="Cure logo"    
+      width={120}         
+      height={48}
+      priority   
+      className=""         
+    />
             </div>
           </Link>
 

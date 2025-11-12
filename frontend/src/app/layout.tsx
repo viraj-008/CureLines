@@ -14,10 +14,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
- title: 'MediCare+ - Online Doctor Consultations',
+ title: 'Cureline+ - Online Doctor Consultations',
+ icons: {
+    icon: '/favicon.ico', 
+  },
   description: 'Connect with certified doctors online for quality healthcare. Professional medical consultations from the comfort of your home.',
   keywords: ['telemedicine', 'online doctor', 'healthcare', 'consultation', 'medical advice', 'teleconsultation'],
-  authors: [{ name: 'MediCare+' }],
+  authors: [{ name: 'Cureline+' }],
 };
 
 
