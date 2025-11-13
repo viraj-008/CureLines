@@ -315,8 +315,8 @@ const PayementStep = ({
       </div>
 
       {paymentStatus === "idle" && (
-        <div className="flex justify-between gap-2">
-          <Button variant="outline" onClick={onBack} className="px-8 py-3">
+        <div className="flex justify-between gap-3 ">
+          <Button variant="outline" onClick={onBack} className="px-py-3">
             Back
           </Button>
           <Button

@@ -13,7 +13,7 @@ const DoctorProfile = ({ doctor }: DoctorPrfileInterface) => {
     <Card className="sticky top-8 shadow-lg border-0">
       <CardContent className="p-8">
         <div className="text-center mb-6">
-          <Avatar className="w-32 h-32 mx-auto right-4 rign-blue-100">
+          <Avatar className="w-32 h-32 mx-auto  rign-blue-100">
             <AvatarImage
               src={doctor?.profileImage}
               alt={doctor?.name}

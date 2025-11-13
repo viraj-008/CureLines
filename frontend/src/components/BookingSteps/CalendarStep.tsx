@@ -106,11 +106,12 @@ const CalendarStep = ({
                 <Label className="text-base font-semibold mb-4 block">Choose Date</Label>
                 <div className="border rounded-lg p-4">
                  <Calendar
+                 
                   mode="single"
                   selected={selectedDate}
                   onSelect={setSelectedDate}
                   disabled={isDateDisabled}
-                  className="rounded-md"
+                  className="rounded-md w-[200px] flex items-center justify-center md:w-full"
                   classNames={{
                      day_selected: 'bg-blue-600 text-white hover:bg-blue-600 hover:text-white focus:bg-blue-600 foucus:text-white',
                      day_today: 'bg-blue-100 text-blue-900 font-bold',

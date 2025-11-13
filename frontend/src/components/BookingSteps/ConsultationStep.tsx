@@ -126,14 +126,14 @@ const ConsultationStep = ({
         </div>
       </div>
 
-      <div className="flex justify-between gap-2">
+      <div className="flex justify-between gap-2 ">
         <Button variant="outline" onClick={onBack} className="PX-8 PY-3">
           Back
         </Button>
         <Button
           onClick={onContinue}
           disabled={!symptoms.trim()}
-          className="px-7 py-3 bg-blue-600 hover:bg-blue-700"
+          className="px-4 py-3 bg-blue-600 hover:bg-blue-700"
         >
           Continue to Payment
         </Button>
