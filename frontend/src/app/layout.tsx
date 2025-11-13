@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
  title: 'Cureline+ - Online Doctor Consultations',
  icons: {
-    icon: '/favicon.ico', 
+    icon: '/cureline.png', 
   },
   description: 'Connect with certified doctors online for quality healthcare. Professional medical consultations from the comfort of your home.',
   keywords: ['telemedicine', 'online doctor', 'healthcare', 'consultation', 'medical advice', 'teleconsultation'],
