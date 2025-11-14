@@ -81,8 +81,7 @@ const Header: React.FC<HeaderProps> = ({ showDashboardNav = false }) => {
         <div className="flex items-center space-x-8">
           <Link href="/" className="flex items-center space-x-2">
            
-
-            <div className="text-2xl font-bold bg-gradient-to-br from-blue-600 to-blue-800  bg-clip-text text-transparent">
+            <div className="text-2xl flex justify-center items-center text-xs  font-bold bg-gradient-to-br from-blue-600 to-blue-800  bg-clip-text text-transparent">
               <Image
       src="/cureline.png"    
       alt="Cure logo"    
@@ -90,7 +89,8 @@ const Header: React.FC<HeaderProps> = ({ showDashboardNav = false }) => {
       height={48}
       priority   
       className=""         
-    />
+      /> 
+      <span className="text-[8px] font-thin relative  text-blue-900 right-5 top-2"> 𝒃𝒚 𝑽𝒊𝒗𝒆𝒌</span>
             </div>
           </Link>
 
